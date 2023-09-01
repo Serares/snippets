@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func bufferedWriter() {
 	// Open file for writing
 	file, err := os.OpenFile("test.txt", os.O_WRONLY|os.O_CREATE, 0666)
 	if err != nil {
