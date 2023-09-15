@@ -1,4 +1,4 @@
-package main
+package fileops
 
 // This example uses zip but standard library
 // also supports tar archives

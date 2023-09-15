@@ -1,6 +1,7 @@
+package fileops
+
 // This example uses gzip but standard library also
 // supports zlib, bz2, flate, and lzw
-package main
 
 import (
 	"compress/gzip"
