@@ -22,3 +22,16 @@ func TestAdapter(t *testing.T) {
 	})
 
 }
+
+func TestFacade(t *testing.T) {
+
+	ht := NewHomeTheaterFacade(
+		&DVDPlayer{},
+		&SoundSystem{},
+		&Projector{},
+	)
+
+	ht.WatchMovie("Titanic")
+	ht.EndMovie()
+
+}
